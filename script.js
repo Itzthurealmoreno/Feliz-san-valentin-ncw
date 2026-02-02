@@ -32,9 +32,9 @@ botonno.addEventListener('click', () => {
         botonsi.style.position = "fixed";
         botonsi.style.top = "50%";
         botonsi.style.left = "50%";
-        botonsi.style.transform = "translate(-50%, -50%) scale(" + yesScale + ")";
+        botonsi.style.transform = `translate(-50%, -50%) scale(${yesScale})`;
         }else{
-            botonsi.style.transform = "translate(-50%, -50%) scale(" + yesScale + ")";
+            botonsi.style.transform = `translate(-50%, -50%) scale(${yesScale})`;
         }
 });
 
