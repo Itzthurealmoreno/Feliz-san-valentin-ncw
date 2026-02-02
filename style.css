@@ -84,7 +84,7 @@ p {
 }
 
 .cat {
-    width: 300px;
+    width: 200px;
     margin: 10px 0;
     transition: width 0.4s ease;
 }
@@ -108,9 +108,13 @@ p {
 }
 
 .botones {
-    width: 120px;
-    cursor: pointer;
-    user-select: none;
+    display: flex;
+    flex-direction: row; /* Alinea uno al lado del otro */
+    justify-content: center; /* Los centra en la pantalla */
+    align-items: center; /* Los alinea verticalmente */
+    gap: 20px; /* Espacio de separación entre los dos botones */
+    margin-top: 20px;
+    position: relative; /* Importante para que el NO se mueva bien */
 }
 
 .botonsi, 
