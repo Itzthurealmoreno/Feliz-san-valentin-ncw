@@ -84,13 +84,15 @@ p {
 }
 
 .cat {
-    width: 250px;
+    width: 300px;
     margin: 10px 0;
     transition: width 0.4s ease;
 }
 
 .carta-ventana.final .cat {
-    width: 180px;
+    width: 600px;
+    transform: translateX(60px); /* Mueve al gato 30px a la derecha */
+
 }
 
 
@@ -136,10 +138,10 @@ display: inline-block;
 
 .texto-final {
     font-size: 22px;
-    line-height: 1.4;
-    text-align: center;
+    line-height: 2.4;
+    text-align: justify;
     display: inline-block;
-    padding: 10px 20px;
+    padding: 9px 10px;
     background-color: rgba(255,240,240,0.5);
-    border-radius: 12px;
+    border-radius: 0px;
 }
