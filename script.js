@@ -49,5 +49,9 @@ botonsi.addEventListener('click', () => {
     botonsi.style.display = "none";
     botonno.style.display = "none";
 
-    textofinal.style.display = "block";
+textofinal.style.display = "block";
+    textofinal.style.cursor = "pointer";
+    textofinal.onclick = () => {
+        window.open("https://widget.riservi.com/rs/eUpXNm9E", "_blank");
+    };
 });
